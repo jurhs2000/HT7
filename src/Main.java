@@ -111,7 +111,9 @@ public class Main {
 		/**
 		 * se recorren las lineas del texto *(oraciones) para traducir
 		 */
-		//binaryTree.printInOrder();
+		System.out.println("Contenido del arbol");
+		binaryTree.printInOrder();
+		System.out.println();
 		String result = "";
 		for (ArrayList<Association<String, String>> sentence : sentencesAssociations) {
 			for (Association<String, String> wordToTranslate : sentence) {
